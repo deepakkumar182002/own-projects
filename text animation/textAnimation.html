@@ -43,11 +43,35 @@
                 background-position: 2000px 0; 
             }
         }
+        h2::after{
+            content: '';
+            height: 8px;
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 0 20px 8px #fff;
+            background: #fff;
+            margin-top: -25px;
+            display: flex;
+            
+            align-items: center;
+            justify-content: center;
+            transform: scaleX(0);
+            transform-origin: left;
+        }
+        h2:hover:after{
+            transform: scaleY(1);
+            transform-origin: right;
+            /* transform: transition .5s; */
+            transition: 1.5s ease;
+            
+
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>HELLO Deepak</h2>
+        <h2>HELLO Alisha</h2>
     </div>
     
 </body>
