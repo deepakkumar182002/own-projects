@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sidebar</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sidebar.css">
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $("li").slideToggle("slow");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebox">
+        <ul class="sidebar">
+          <a href="#" id="headLogo">
+            <i class="fa-solid fa-house"></i>
+            <span>sidebar</span>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-database"></i>
+              <span>Data</span>
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-message"></i>
+              <span>messages</span>
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa-regular fa-folder-open"></i>
+              <span>Storage</span>
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa-regular fa-file"></i>
+              <span>Documents</span>
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-address-card"></i>
+              <span>about</span>
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa-solid fa-user"></i>
+              <span>SigUp</span>
+            </li>
+          </a>
+          <button type="button"><i class="fa-solid fa-bars"></i></button>
+        </ul>
+      </div>
+    </div>
+    <div class="creator">
+    <p>Creat by Deepak kumar...</p>
+    </div>
+  </body>
+</html>

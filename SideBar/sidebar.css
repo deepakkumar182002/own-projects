@@ -1,0 +1,124 @@
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background: #dfc3ec;
+      }
+      .sidebox a#headLogo {
+        display: flex;
+        position: relative;
+        height: 50px;
+        width: 100%;
+        background: #8504c0;
+        text-align: center;
+        word-spacing: 10px;
+      }
+      .sidebox a#headLogo span {
+        font-family: 'Righteous', cursive;
+        display: flex;
+        position: absolute;
+        color: white;
+        top: 4px;
+        left: 75px;
+        font-weight: bold;
+        font-size: 33px;
+        /* line-height: 1.6; */
+        /* align-items: center; */
+        justify-content: center;
+
+      }
+      .sidebox a#headLogo i {
+        display: flex;
+        position: relative;
+        left: 25px;
+        top: 8px;
+        font-size: 25px;
+        line-height: 1.5;
+        color: white;
+        
+      }
+      .container {
+        padding: 0;
+        margin: 0;
+      }
+      .sidebox {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+      }
+      ul.sidebar {
+        top: 20px;
+        /* border-radius: 40px; */
+        /* background: #e090ea; */
+        height: auto;
+        width: 280px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        box-shadow: 0 0 40px 2px #8504c0 ;
+      }
+      ul.sidebar a {
+        /* background: #f3f3f3; */
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        width: 100%;
+        background: #e090ea;
+        color: #8504c0;
+      }
+      ul.sidebar a li {
+        list-style: none;
+        font-size: 20px;
+        padding: 5px 30px ;
+        line-height: 2.5;
+        word-spacing: 10px;
+        font-weight: bold;
+      }
+      ul.sidebar a li:hover {
+        color: white;
+       background-color: #f7bcec;
+      }
+      ul.sidebar a li span {
+        text-indent: 10%;
+        padding: 2px 2px;
+
+        /* letter-spacing: 5px; */
+      }
+      button {
+        color: black;
+        border-radius: 5px;
+        background: #f4f4f4;
+        border: none;
+        display: block;
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        left: 240px;
+        top: 10px;
+      }
+      button:active {
+        background: #d792f3fa;
+        box-shadow: 0 0 5px 5px #c73affda ;
+      }
+      .creator{
+        display: block;
+        position: absolute;
+        left: 660px;
+        top: 600px;
+        /* height: 20px;
+        width: 200px;
+        background-color: #8404c030; */
+        /* opacity: 50%; */
+
+      }
+       p{
+        font-family: 'Great Vibes', cursive;
+        font-size: 30px;
+      }
